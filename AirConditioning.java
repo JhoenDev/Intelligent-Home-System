@@ -1,10 +1,10 @@
-public class AirConditioning {
+public class AirConditioning implements HomeService{
 
     public String turnOn() {
-        return "AirConditioning is turned on.";
+        return "AirConditioning is turned on.\n";
     }
 
     public String turnOff() {
-        return "AirConditioning is turned off.";
+        return "AirConditioning is turned off.\n";
     }
 }
